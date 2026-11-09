@@ -52,3 +52,25 @@
 **As a** CS agent  
 **I want** to see fraud score and rule hits on a transaction  
 **So that** I can set customer expectations on dispute outcome
+
+---
+
+### US-DISP-03 — Suggested reason codes
+
+**As a** disputes analyst  
+**I want** candidate reason codes suggested from the customer's statement  
+**So that** I can file correctly on the first attempt
+
+- Suggestions are ranked, and the analyst makes the final selection.
+- The chosen code and the suggested codes are both stored.
+
+---
+
+### US-DISP-04 — Case timeline for customers
+
+**As a** customer  
+**I want** to see where my dispute stands  
+**So that** I do not need to call for an update
+
+- Shows stage, last update, and the next expected date.
+- Never shows fraud scores or internal notes.
